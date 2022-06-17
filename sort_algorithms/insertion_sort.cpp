@@ -9,6 +9,7 @@ void sort(int * vector, int length) {
 
         int j = i - 1;
 
+        // Note: to be more easy to remember, think that is the array that move each element to foward, pushing on rear
         while ((j >= 0) && (actual_value < vector[j])) {
             vector[j + 1] = vector[j];
             j--;
