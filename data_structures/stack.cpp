@@ -3,8 +3,7 @@
 using namespace std;
 
 typedef struct STACK {
-    int top;
-    int size;
+    int top, size;
     int * data;
 } _stack;
 
@@ -57,18 +56,14 @@ int main() {
     push(test, 4);
     push(test, 7);
     push(test, 1);
-    push(test, 8);
-
-    for (int i = 0; i < test->size + 1; i++) {
-        cout << test->data[i] << endl;
-    }
+    push(test, 8); // full
 
     cout << pop(test) << endl;
     cout << pop(test) << endl;
     cout << pop(test) << endl;
     cout << pop(test) << endl;
     cout << pop(test) << endl;
-    cout << pop(test) << endl;
+    cout << pop(test) << endl; // empty
 
     return 0;
 }
