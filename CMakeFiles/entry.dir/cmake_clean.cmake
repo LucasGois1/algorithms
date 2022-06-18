@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/entry.dir/algorithms/quick.cpp.o.d"
   "CMakeFiles/entry.dir/algorithms/selection.cpp.o"
   "CMakeFiles/entry.dir/algorithms/selection.cpp.o.d"
+  "CMakeFiles/entry.dir/algorithms/shell.cpp.o"
+  "CMakeFiles/entry.dir/algorithms/shell.cpp.o.d"
   "CMakeFiles/entry.dir/algorithms/simple.cpp.o"
   "CMakeFiles/entry.dir/algorithms/simple.cpp.o.d"
   "CMakeFiles/entry.dir/data_structures/queue.cpp.o"

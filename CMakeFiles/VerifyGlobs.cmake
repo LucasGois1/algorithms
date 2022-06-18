@@ -11,6 +11,7 @@ set(OLD_GLOB
   "/home/lucas-gois/Documents/structs/algorithms/quick.cpp"
   "/home/lucas-gois/Documents/structs/algorithms/search.h"
   "/home/lucas-gois/Documents/structs/algorithms/selection.cpp"
+  "/home/lucas-gois/Documents/structs/algorithms/shell.cpp"
   "/home/lucas-gois/Documents/structs/algorithms/simple.cpp"
   "/home/lucas-gois/Documents/structs/algorithms/sort.h"
   )

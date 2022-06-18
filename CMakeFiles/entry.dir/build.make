@@ -139,10 +139,24 @@ CMakeFiles/entry.dir/algorithms/selection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/entry.dir/algorithms/selection.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas-gois/Documents/structs/algorithms/selection.cpp -o CMakeFiles/entry.dir/algorithms/selection.cpp.s
 
+CMakeFiles/entry.dir/algorithms/shell.cpp.o: CMakeFiles/entry.dir/flags.make
+CMakeFiles/entry.dir/algorithms/shell.cpp.o: algorithms/shell.cpp
+CMakeFiles/entry.dir/algorithms/shell.cpp.o: CMakeFiles/entry.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas-gois/Documents/structs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/entry.dir/algorithms/shell.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/entry.dir/algorithms/shell.cpp.o -MF CMakeFiles/entry.dir/algorithms/shell.cpp.o.d -o CMakeFiles/entry.dir/algorithms/shell.cpp.o -c /home/lucas-gois/Documents/structs/algorithms/shell.cpp
+
+CMakeFiles/entry.dir/algorithms/shell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/entry.dir/algorithms/shell.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas-gois/Documents/structs/algorithms/shell.cpp > CMakeFiles/entry.dir/algorithms/shell.cpp.i
+
+CMakeFiles/entry.dir/algorithms/shell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/entry.dir/algorithms/shell.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas-gois/Documents/structs/algorithms/shell.cpp -o CMakeFiles/entry.dir/algorithms/shell.cpp.s
+
 CMakeFiles/entry.dir/algorithms/simple.cpp.o: CMakeFiles/entry.dir/flags.make
 CMakeFiles/entry.dir/algorithms/simple.cpp.o: algorithms/simple.cpp
 CMakeFiles/entry.dir/algorithms/simple.cpp.o: CMakeFiles/entry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas-gois/Documents/structs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/entry.dir/algorithms/simple.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas-gois/Documents/structs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/entry.dir/algorithms/simple.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/entry.dir/algorithms/simple.cpp.o -MF CMakeFiles/entry.dir/algorithms/simple.cpp.o.d -o CMakeFiles/entry.dir/algorithms/simple.cpp.o -c /home/lucas-gois/Documents/structs/algorithms/simple.cpp
 
 CMakeFiles/entry.dir/algorithms/simple.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/entry.dir/algorithms/simple.cpp.s: cmake_force
 CMakeFiles/entry.dir/data_structures/queue.cpp.o: CMakeFiles/entry.dir/flags.make
 CMakeFiles/entry.dir/data_structures/queue.cpp.o: data_structures/queue.cpp
 CMakeFiles/entry.dir/data_structures/queue.cpp.o: CMakeFiles/entry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas-gois/Documents/structs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/entry.dir/data_structures/queue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas-gois/Documents/structs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/entry.dir/data_structures/queue.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/entry.dir/data_structures/queue.cpp.o -MF CMakeFiles/entry.dir/data_structures/queue.cpp.o.d -o CMakeFiles/entry.dir/data_structures/queue.cpp.o -c /home/lucas-gois/Documents/structs/data_structures/queue.cpp
 
 CMakeFiles/entry.dir/data_structures/queue.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/entry.dir/data_structures/queue.cpp.s: cmake_force
 CMakeFiles/entry.dir/data_structures/stack.cpp.o: CMakeFiles/entry.dir/flags.make
 CMakeFiles/entry.dir/data_structures/stack.cpp.o: data_structures/stack.cpp
 CMakeFiles/entry.dir/data_structures/stack.cpp.o: CMakeFiles/entry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas-gois/Documents/structs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/entry.dir/data_structures/stack.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas-gois/Documents/structs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/entry.dir/data_structures/stack.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/entry.dir/data_structures/stack.cpp.o -MF CMakeFiles/entry.dir/data_structures/stack.cpp.o.d -o CMakeFiles/entry.dir/data_structures/stack.cpp.o -c /home/lucas-gois/Documents/structs/data_structures/stack.cpp
 
 CMakeFiles/entry.dir/data_structures/stack.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/entry.dir/data_structures/stack.cpp.s: cmake_force
 CMakeFiles/entry.dir/main.cpp.o: CMakeFiles/entry.dir/flags.make
 CMakeFiles/entry.dir/main.cpp.o: main.cpp
 CMakeFiles/entry.dir/main.cpp.o: CMakeFiles/entry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas-gois/Documents/structs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/entry.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas-gois/Documents/structs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/entry.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/entry.dir/main.cpp.o -MF CMakeFiles/entry.dir/main.cpp.o.d -o CMakeFiles/entry.dir/main.cpp.o -c /home/lucas-gois/Documents/structs/main.cpp
 
 CMakeFiles/entry.dir/main.cpp.i: cmake_force
@@ -202,6 +216,7 @@ entry_OBJECTS = \
 "CMakeFiles/entry.dir/algorithms/insertion.cpp.o" \
 "CMakeFiles/entry.dir/algorithms/quick.cpp.o" \
 "CMakeFiles/entry.dir/algorithms/selection.cpp.o" \
+"CMakeFiles/entry.dir/algorithms/shell.cpp.o" \
 "CMakeFiles/entry.dir/algorithms/simple.cpp.o" \
 "CMakeFiles/entry.dir/data_structures/queue.cpp.o" \
 "CMakeFiles/entry.dir/data_structures/stack.cpp.o" \
@@ -215,13 +230,14 @@ entry: CMakeFiles/entry.dir/algorithms/bubble.cpp.o
 entry: CMakeFiles/entry.dir/algorithms/insertion.cpp.o
 entry: CMakeFiles/entry.dir/algorithms/quick.cpp.o
 entry: CMakeFiles/entry.dir/algorithms/selection.cpp.o
+entry: CMakeFiles/entry.dir/algorithms/shell.cpp.o
 entry: CMakeFiles/entry.dir/algorithms/simple.cpp.o
 entry: CMakeFiles/entry.dir/data_structures/queue.cpp.o
 entry: CMakeFiles/entry.dir/data_structures/stack.cpp.o
 entry: CMakeFiles/entry.dir/main.cpp.o
 entry: CMakeFiles/entry.dir/build.make
 entry: CMakeFiles/entry.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucas-gois/Documents/structs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable entry"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucas-gois/Documents/structs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable entry"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/entry.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

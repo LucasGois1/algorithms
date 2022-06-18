@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/lucas-gois/Documents/structs/algorithms/insertion.cpp" "CMakeFiles/entry.dir/algorithms/insertion.cpp.o" "gcc" "CMakeFiles/entry.dir/algorithms/insertion.cpp.o.d"
   "/home/lucas-gois/Documents/structs/algorithms/quick.cpp" "CMakeFiles/entry.dir/algorithms/quick.cpp.o" "gcc" "CMakeFiles/entry.dir/algorithms/quick.cpp.o.d"
   "/home/lucas-gois/Documents/structs/algorithms/selection.cpp" "CMakeFiles/entry.dir/algorithms/selection.cpp.o" "gcc" "CMakeFiles/entry.dir/algorithms/selection.cpp.o.d"
+  "/home/lucas-gois/Documents/structs/algorithms/shell.cpp" "CMakeFiles/entry.dir/algorithms/shell.cpp.o" "gcc" "CMakeFiles/entry.dir/algorithms/shell.cpp.o.d"
   "/home/lucas-gois/Documents/structs/algorithms/simple.cpp" "CMakeFiles/entry.dir/algorithms/simple.cpp.o" "gcc" "CMakeFiles/entry.dir/algorithms/simple.cpp.o.d"
   "/home/lucas-gois/Documents/structs/data_structures/queue.cpp" "CMakeFiles/entry.dir/data_structures/queue.cpp.o" "gcc" "CMakeFiles/entry.dir/data_structures/queue.cpp.o.d"
   "/home/lucas-gois/Documents/structs/data_structures/stack.cpp" "CMakeFiles/entry.dir/data_structures/stack.cpp.o" "gcc" "CMakeFiles/entry.dir/data_structures/stack.cpp.o.d"

@@ -250,6 +250,30 @@ algorithms/selection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/entry.dir/build.make CMakeFiles/entry.dir/algorithms/selection.cpp.s
 .PHONY : algorithms/selection.cpp.s
 
+algorithms/shell.o: algorithms/shell.cpp.o
+.PHONY : algorithms/shell.o
+
+# target to build an object file
+algorithms/shell.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entry.dir/build.make CMakeFiles/entry.dir/algorithms/shell.cpp.o
+.PHONY : algorithms/shell.cpp.o
+
+algorithms/shell.i: algorithms/shell.cpp.i
+.PHONY : algorithms/shell.i
+
+# target to preprocess a source file
+algorithms/shell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entry.dir/build.make CMakeFiles/entry.dir/algorithms/shell.cpp.i
+.PHONY : algorithms/shell.cpp.i
+
+algorithms/shell.s: algorithms/shell.cpp.s
+.PHONY : algorithms/shell.s
+
+# target to generate assembly for a file
+algorithms/shell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entry.dir/build.make CMakeFiles/entry.dir/algorithms/shell.cpp.s
+.PHONY : algorithms/shell.cpp.s
+
 algorithms/simple.o: algorithms/simple.cpp.o
 .PHONY : algorithms/simple.o
 
@@ -370,6 +394,9 @@ help:
 	@echo "... algorithms/selection.o"
 	@echo "... algorithms/selection.i"
 	@echo "... algorithms/selection.s"
+	@echo "... algorithms/shell.o"
+	@echo "... algorithms/shell.i"
+	@echo "... algorithms/shell.s"
 	@echo "... algorithms/simple.o"
 	@echo "... algorithms/simple.i"
 	@echo "... algorithms/simple.s"
