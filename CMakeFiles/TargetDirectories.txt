@@ -1,0 +1,3 @@
+/home/lucas-gois/Documents/structs/CMakeFiles/entry.dir
+/home/lucas-gois/Documents/structs/CMakeFiles/edit_cache.dir
+/home/lucas-gois/Documents/structs/CMakeFiles/rebuild_cache.dir

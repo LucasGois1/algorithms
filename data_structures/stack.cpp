@@ -1,11 +1,7 @@
 #include <iostream>
+#include "structs.h"
 
 using namespace std;
-
-typedef struct STACK {
-    int top, size;
-    int * data;
-} _stack;
 
 _stack * new_stack(int size) {
     _stack* stack = (_stack *) calloc(1, sizeof(STACK *));
@@ -46,24 +42,4 @@ int pop(_stack* stack) {
 
 int size(_stack* stack) {
     return stack->top + 1;
-}
-
-int main() {
-    _stack* test = new_stack(5);
-
-    push(test, 5);
-    push(test, 2);
-    push(test, 4);
-    push(test, 7);
-    push(test, 1);
-    push(test, 8); // full
-
-    cout << pop(test) << endl;
-    cout << pop(test) << endl;
-    cout << pop(test) << endl;
-    cout << pop(test) << endl;
-    cout << pop(test) << endl;
-    cout << pop(test) << endl; // empty
-
-    return 0;
 }

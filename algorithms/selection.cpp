@@ -1,8 +1,7 @@
 #include <iostream>
+#include "sort.h"
 
-using namespace std;
-
-void sort(int * vector, int length) {
+void selection_sort(int * vector, int length) {
 
     for (int i = 0; i < length; i++) {
         int lower_index = i;
@@ -19,18 +18,4 @@ void sort(int * vector, int length) {
             vector[lower_index] = temp;
         }
     }
-}
-
-int main () {
-
-    int vector[] = {13, 6, 3, 9, 2, 4, 7, 1};
-    const size_t length = sizeof(vector) / sizeof(vector[0]);
-    int* p = vector; 
-
-    sort(vector, length);
-
-    for(int i = 0; i < length; i++) {
-        cout << vector[i] << endl;
-    }
-    return 0;
 }

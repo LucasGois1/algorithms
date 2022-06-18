@@ -1,11 +1,7 @@
 #include <iostream>
+#include "structs.h"
 
 using namespace std;
-
-typedef struct QUEUE {
-    int front, rear, size;
-    int * data;
-} _queue;
 
 _queue * new_queue(int size) {
     _queue* queue = (_queue *) calloc(1, sizeof(QUEUE *));
@@ -47,24 +43,4 @@ int dequeue(_queue* queue) {
 
 int size(_queue* queue) {
     return queue->front + 1;
-}
-
-int main() {
-    _queue* test = new_queue(5);
-
-    enqueue(test, 5);
-    enqueue(test, 2);
-    enqueue(test, 4);
-    enqueue(test, 7);
-    enqueue(test, 1);
-    enqueue(test, 8); // full
-
-    cout << dequeue(test) << endl;
-    cout << dequeue(test) << endl;
-    cout << dequeue(test) << endl;
-    cout << dequeue(test) << endl;
-    cout << dequeue(test) << endl;
-    cout << dequeue(test) << endl; // empty
-
-    return 0;
 }
